@@ -1,0 +1,35 @@
+.main_img {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_img img {
+  border-radius: 10px;
+}
+.main_img img:hover {
+  transition: all 0.3s ease;
+  box-shadow: 10px 10px black;
+  transform: translateX(-12px) translateY(-12px);
+}
+
+hr {
+  background: #2a2a2a;
+  outline: none;
+  border: 0.1px solid #2a2a2a;
+  width: 50%;
+}
+
+button:hover {
+  box-shadow: 2px 2px 2px purple;
+  background-color: rgb(177, 67, 177);
+  cursor: pointer;
+}
+button:hover b > a {
+  color: white;
+}
+
+button b > a {
+  text-decoration: none;
+  color: purple;
+}/*# sourceMappingURL=updated.css.map */
